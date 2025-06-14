@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramos - Flores Melissa y Sol</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .page-title {
+            color: #6c757d;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .product-card {
+            margin-bottom: 30px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .product-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .product-name {
+            color: #6c757d;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-price {
+            color: #346940;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .add-to-cart {
+            background-color: #fad889;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .add-to-cart:hover {
+            background-color: #e0a800;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .footer-section {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .footer-title {
+            color: #6c757d;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            font-size: 24px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Flores Melissa y Sol">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="ramos.html">Ramos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">RAMOS DE FLORES</h1>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo1.jpg" alt="Ramo Primavera" class="product-image" onclick="window.location.href='ramo-primavera.html'">
+                    <h4 class="product-name">Ramo Primavera</h4>
+                    <p class="product-price">$25.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo2.jpg" alt="Ramo Amor Eterno" class="product-image" onclick="window.location.href='ramo-amor-eterno.html'">
+                    <h4 class="product-name">Ramo Amor Eterno</h4>
+                    <p class="product-price">$32.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo3.jpg" alt="Ramo Dulzura" class="product-image" onclick="window.location.href='ramo-dulzura.html'">
+                    <h4 class="product-name">Ramo Dulzura</h4>
+                    <p class="product-price">$28.500 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo4.jpg" alt="Ramo Elegance" class="product-image" onclick="window.location.href='ramo-elegance.html'">
+                    <h4 class="product-name">Ramo Elegance</h4>
+                    <p class="product-price">$35.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo5.jpg" alt="Ramo Campestre" class="product-image" onclick="window.location.href='ramo-campestre.html'">
+                    <h4 class="product-name">Ramo Campestre</h4>
+                    <p class="product-price">$22.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo6.jpg" alt="Ramo Rosas Clásicas" class="product-image" onclick="window.location.href='ramo-rosas-clasicas.html'">
+                    <h4 class="product-name">Ramo Rosas Clásicas</h4>
+                    <p class="product-price">$30.500 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo7.jpg" alt="Ramo Exuberante" class="product-image" onclick="window.location.href='ramo-exuberante.html'">
+                    <h4 class="product-name">Ramo Exuberante</h4>
+                    <p class="product-price">$38.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo8.jpg" alt="Ramo Minimalista" class="product-image" onclick="window.location.href='ramo-minimalista.html'">
+                    <h4 class="product-name">Ramo Minimalista</h4>
+                    <p class="product-price">$27.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ramo9.jpg" alt="Ramo Especial" class="product-image" onclick="window.location.href='ramo-especial.html'">
+                    <h4 class="product-name">Ramo Especial</h4>
+                    <p class="product-price">$40.990 CLP</p>
+                    <button class="add-to-cart" onclick="window.location.href='carrito.html'">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section">
+                    <h5 class="footer-title">Contactanos</h5>
+                    <p><i class="fas fa-envelope"></i> floresmelissaysol@gmail.com</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h5 class="footer-title">Siguenos</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h5 class="footer-title">Métodos de pago</h5>
+                    <img src="webpay-logo.png" alt="Webpay" style="height: 30px;">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+s
